@@ -52,9 +52,9 @@
                
                <div class="row">
                    <div class="col-xs-4">
-                       <button type="submit" class="btn btn-primary">
-							<i class="fa fa-btn fa-envelope"></i>Send Password Reset Link
-						</button>
+                       <button type="submit" class="btn btn-primary btn-flat">
+							Send Password Reset Link
+					   </button>
                    </div><!-- /.col -->
                </div><br>
                <a href="http://localhost:8000" class="text-center">I already have a membership</a><br>
