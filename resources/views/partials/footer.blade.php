@@ -5,5 +5,5 @@
         Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; {{ date('Y') }} <a href="#">Copam Informática</a>.</strong> Todos os direitos reservados.
+    <strong>Copyright &copy; {{ date('Y') }} <a href="#">Your Company</a>.</strong> All rights reserved.
 </footer>

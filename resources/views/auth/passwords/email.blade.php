@@ -32,9 +32,18 @@
 	<div class="login-box">
 		<div class="login-logo">
 			<a href="#"><b>Admin</b>LTE</a>
-		</div>
+		</div>		
+	<!-- Flash Notifications -->
+	@if (Session::has('flash_notification.message'))
+    <div class="alert alert-{{ Session::get('flash_notification.level') }}">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+
+        {{ Session::get('flash_notification.message') }}
+    </div>
+	@endif
 		<!-- /.login-logo -->
 		<div class="login-box-body">
+		
 			<p class="login-box-msg">Reset Password</p>
 			<form method="POST" action="{{ url('/password/email') }}">
 				{!! csrf_field() !!}
