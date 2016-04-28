@@ -1,32 +1,34 @@
-# Layout padrão Admin LTE integrado ao Laravel 5.2
+# Admin LTE integrated to Laravel 5.2
 
-Funcionalidades:
+Features:
 
-  - Layout totalmente integrado ao Blade
-  - Tela de Login
-  - Tela de cadastro de usuários
+  - Fully integrated layout to Blade
+  - Login screen	
+  - User registration screen
+  - Password reset
+  - Integrated with the lib laracasts/flash for messages notifications
 
 ### Version
 1.0
 
 
-### Instalação
+### Installation
 
-Após **clonar o repositório**
+After **cloning the repository**
 ```sh
 git clone https://github.com/geekcom/laravel_admin.git
 ```
-ou **baixar os arquivos zipados**.
+or **download the zipped files**
 ```sh
 https://github.com/geekcom/laravel_admin/archive/master.zip
 ```
-**Configure o seu arquivo env**
+**Set up your .env file**
 
-**Rode as migrations**
+**Run the migrations**
 ```sh
 php artisan migration
 ```
-Pronto seu layout Admin LTE já estará integrado e funcionando com Laravel 5.2
+:D All right, your Admin LTE layout is already integrated and working with Laravel 5.2
 
 
 License
@@ -34,4 +36,4 @@ License
 
 MIT
 
-**Todos os plugins usados são free ou open source, se preferir faça um  fork e ajude no projeto**
+**All libs used are free or open source , if you want to contribute to the project make a fork**
