@@ -18,10 +18,17 @@ After **cloning the repository**
 ```sh
 git clone https://github.com/geekcom/laravel_admin.git
 ```
+
 or **download the zipped files**
 ```sh
 https://github.com/geekcom/laravel_admin/archive/master.zip
 ```
+
+install dependencies
+```sh
+composer install
+```
+
 **Set up your .env file**
 
 **Run the migrations**
@@ -37,3 +44,4 @@ License
 MIT
 
 **All libs used are free or open source , if you want to contribute to the project make a fork**
+**To contact: danielrodrigues-ti@hotmail.com**
